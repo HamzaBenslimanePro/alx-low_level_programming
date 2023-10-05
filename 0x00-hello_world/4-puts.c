@@ -1,7 +1,10 @@
 #include <stdio.h>
 /**
- * main - prints "Programming is like building a multilingual puzzl"e
- * return 0.
+ * main - prints "Programming is like building a multilingual puzzl"
+ * 
+ * Description: A C program to print put fonction
+ * 
+ * Return: Always 0 (Success)
  */
 int main(void)
 {
