@@ -1,6 +1,6 @@
 #include <unistd.h>
 /**
- * main - Entry point 
+ * main - Entry point
  * Description: "another script"
  * Return: Always 0 (Success)
  */
