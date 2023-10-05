@@ -2,10 +2,10 @@
 /**
  * main - Entry
  * Description:"Write a C program that prints exactly etc ..."
- * Return always 0 (always)
+ * Return: Always 0 (Sucess)
  */
 int main(void)
 {
-	printf("with proper grammar, but the outcome is a piece of art,");
+	printf("with proper grammar, but the outcome is a piece of art,\n");
 	return (0);
 }
