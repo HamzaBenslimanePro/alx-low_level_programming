@@ -28,6 +28,5 @@ int main(void)
 	}
 	d1++;
 }
-	putchar(10);
 	return (0);
 }
