@@ -7,17 +7,18 @@
  * Description: A C program that prints a list of numbers 0-9
  * Return: Always 0 (Success)
  */
-int main()
+int main(void)
 {
-	char d1;
-	const char *sep = "";
-
-	for (d1 = '0'; d1 <= '9'; d1++) 
-{
-		fputs(sep, stdout);
-		sep = ", ";
-		putchar(d1);
-}
+	char ch = '0';
+	for (ch = '0'; ch <= '9'; ch++)
+	{
+		putchar(ch);
+		if (ch != '9')
+		{
+			putchar(',');
+			putchar(' ');
+		}
+	}
 	putchar('\n');
 	return 0;
 }
