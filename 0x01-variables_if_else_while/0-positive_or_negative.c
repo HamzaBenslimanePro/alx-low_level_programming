@@ -1,8 +1,12 @@
 #include <stdlib.h>
 #include <time.h>
-/* more headers goes there */
+#include <stdio.h>
 
-/* betty style doc for function main goes there */
+/**
+ * Main - Entry 
+ * description : randomize a number and tell its sign
+ * return always 0 (success)
+ */
 int main(void)
 {
 	int n;
