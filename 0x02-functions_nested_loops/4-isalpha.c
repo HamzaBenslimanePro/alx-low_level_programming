@@ -6,7 +6,7 @@
  * Return: 1 if letter, otherwise 0.
  */
 
-int _isalpha(int c)
+int _isalpha(int c);
 {
-	return ((c >= 'a' && c <= 'z' || (c >= 'A' && c <= 'Z'));
+	return ((c >= 'a' && c <= 'z') || (c >= 'A' && c <= 'Z'));
 }
