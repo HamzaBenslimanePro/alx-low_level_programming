@@ -5,7 +5,6 @@
 void print_numbers(void)
 {
 	char ch;
-	int i;
 
 	ch = '0';
 	while (ch <= '9')
