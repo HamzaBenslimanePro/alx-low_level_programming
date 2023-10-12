@@ -2,8 +2,7 @@
 
 /**
  * print_most_numbers - blabla
- * Description: A C program that prints the alphabet in lowercase,
- * and CAPS, followed by a new line.
+ *
  * Return: Always 0 (Success)
  */
 void print_most_numbers(void)
