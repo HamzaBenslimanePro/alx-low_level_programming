@@ -2,8 +2,6 @@
 
 /**
  * more_numbers - blabla
- * Description: A C program that prints a list of numbers 0-9
- * Return: Always 0 (Success)
  */
 
 void more_numbers(void)
