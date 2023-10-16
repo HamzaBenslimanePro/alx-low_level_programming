@@ -3,7 +3,7 @@
 /**
  * _strlen - blabla
  * @s: char used
- * return: returns the counter c
+ * Return: returns the counter c
  */
 
 int _strlen(char *s)
