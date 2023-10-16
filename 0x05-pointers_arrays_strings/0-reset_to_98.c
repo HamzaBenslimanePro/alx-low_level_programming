@@ -1,9 +1,11 @@
 #include "main.h"
 
+/**
+ * reset_to_98 - balabla
+ * @n: int to be reset
+ */
+
 void reset_to_98(int *n)
 {
-	int a ;
-	int *n = &a;
-
-	n = 98;
+	*n = 98;
 }
