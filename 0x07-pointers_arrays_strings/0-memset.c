@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * _memcpy - blabla
+ * _memset - blabla
  * @n: firt byte to change
  * @b: what it is changed into
  * @s: the memory area pointed
