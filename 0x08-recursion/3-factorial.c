@@ -3,6 +3,7 @@
 /**
  * factorial - blabla
  * @n: int used
+ * Return: return the factorial
  */
 
 int factorial(int n)
