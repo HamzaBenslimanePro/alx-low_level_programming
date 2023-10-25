@@ -2,7 +2,7 @@
 
 /**
  * _puts_recursion - blabla
- * @a: string to be put
+ * @s: string to be put
  */
 
 void _puts_recursion(char *s)
