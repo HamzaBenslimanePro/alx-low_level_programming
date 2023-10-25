@@ -2,23 +2,30 @@
 
 /**
  * _sqrt_recursion - blabla
+ * actual_sqrt_recursion - blabla
  * @n: int to look for sqrt
  * Return: return sqrt of n
  */
 
 int _sqrt_recursion(int n)
 {
-	int i = 0;
-
 	if (n < 0)
 		return (-1);
-	return (SQRT1(n, 0));
+	return (actual_sqrt_recursion(n, 0));
 }
-int SQRT1(int n, int i)
+
+/**
+ * actual_sqrt_recursion - blabla
+ * @i: int used
+ * @n: int to look for sqrt
+ * Return: return sqrt of n
+ */
+
+int actual_sqrt_recursion(int n, int i)
 {
 	if (i * i > n)
 		return (-1);
 	if (i * i == n)
 		return (i);
-	return (SQRT1 (n, i + 1));
+	return (actual_sqrt_recursion(n, i + 1));
 }
