@@ -1,6 +1,6 @@
 #include "main.h"
 
-int actual_prime_func(int n, int i)
+int actual_prime_func(int n, int i);
 
 /**
  * is_prime_number - blabla
