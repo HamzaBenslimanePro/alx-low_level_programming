@@ -45,22 +45,51 @@ int _atoi(char *s)
 	return (n);
 }
 
-#include "main.h"
-#include <stdio.h>
-
 /**
- * main - blabla
- * @argv: blabla
- * @argc: blabla
- * Return: Blabla
+		
+ * main - multiplies two numbers
+		
+ * @argc: number of arguments
+		
+ * @argv: array of arguments
+		
+ *
+		
+ * Return: 0 (Success), 1 (Error)
+		
  */
-
+		
 int main(int argc, char *argv[])
+		
 {
-	int M;
+		
+	int result, num1, num2;
+		
 
-	M = _atoi(argv[2]) * _atoi(argv[1]);
-	printf("%d\n", M);
+		
+	if (argc < 3 || argc > 3)
+		
+	{
+		
+		printf("Error\n");
+		
+		return (1);
+		
+	}
+		
 
+		
+	num1 = _atoi(argv[1]);
+		
+	num2 = _atoi(argv[2]);
+		
+	result = num1 * num2;
+		
+
+		
+	printf("%d\n", result);
+		
+
+		
 	return (0);
 }
