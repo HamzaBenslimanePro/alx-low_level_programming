@@ -60,7 +60,7 @@ int main(*char argv[], int argc)
 	s1 = argv[1]; s2 = argv[2];
 	if (argc != 3 || !is_digit(s1) || !is_digit(s2))
 	{
-		errors(0);
+		errors();
 	}
 	len1 = _strlen(s1);
 	len2 = _strlen(s2);
