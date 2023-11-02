@@ -7,9 +7,16 @@
  * @s: xxxxxxxxxxxxxxxxxxxx
  * Return: xxxxxxxxxxxxxxxxxx
  */
- int _isdigit(int s)
+ int _isdigit(int *s)
 {
-	return (s >= '0' && s <= '9');
+	int i;
+
+	while (s[i])
+	{
+		if (s[i] <= '9' && s[i] >= '0')
+			return (0);
+		i++;
+	}
 }
 
 /**
@@ -50,7 +57,7 @@ int main(*char argv[], int argc)
 	char *s1, *s2;
 	int len1, len2, len, i, carry, digit1, digit2, *result, a = 0;
 
-	s[1] = argv(1); s[2] = argv(2);
+	s1 = argv[1]; s2 = argv[2];
 	if (argc != 3 || !is_digit(s1) || !is_digit(s2))
 	{
 		errors(0);
