@@ -3,6 +3,7 @@
 /**
  * malloc_checked - allocate a certainr size in the memory
  * @b: unsigned int used in the function
+ * Return: returns nothing
  */
 
 void *malloc_checked(unsigned int b)
