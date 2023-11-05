@@ -4,8 +4,7 @@
 /**
  * struct dog - blabla
  */
-typedef struct dog dog;
-struct dog
+typedef struct dog
 {
 	char *name;
 	float age;
