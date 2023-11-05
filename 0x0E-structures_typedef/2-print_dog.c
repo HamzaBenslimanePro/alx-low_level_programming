@@ -1,9 +1,15 @@
 #include "dog.h"
 #include <stdio.h>
 
+/**
+ * print_dog - xxxxxxxxxxxxxxxxxxxx
+ * @d: xxxxxxxxxxxxxxxxxxxxxx
+ * Return: void
+ */
+
 void print_dog(struct dog *d)
 {
-	if (d != NULL)
+	if (d)
 	{
 		printf("Name :%s\n",(*d).name ? (*d).name : "nil");
 		printf("Age :%s\n",(*d).age ? (*d).age : "nil");
