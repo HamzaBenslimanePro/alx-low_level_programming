@@ -3,6 +3,9 @@
 
 /**
  * struct dog - blabla
+ * @name: a parameter
+ * @age: another parameter
+ * @owner: yet anoteher parameter
  */
 
 struct dog
